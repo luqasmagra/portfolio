@@ -39,8 +39,9 @@ export default function Home() {
             href="https://github.com/tmchein"
             target="_blank"
           >
-            tmchein 🔥
+            tmchein
           </a>
+          🔥
         </h1>
       </main>
     </>
