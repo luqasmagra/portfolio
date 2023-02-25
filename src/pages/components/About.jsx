@@ -97,17 +97,11 @@ export default function About() {
           <span className="rounded-sm border-4 flex items-center p-1 border-sky-500 hover:bg-sky-500 transition">
             CSS
           </span>
-          <span className="rounded-sm border-4 flex items-center p-1 border-sky-400 hover:bg-sky-400 transition">
-            TailwindCSS
-          </span>
           <span className="rounded-sm border-4 flex items-center p-1 border-yellow-500 hover:bg-yellow-500 transition">
             JavaScript
           </span>
           <span className="rounded-sm border-4 flex items-center p-1 border-sky-600 hover:bg-sky-600 transition">
             React
-          </span>
-          <span className="rounded-sm border-4 flex items-center p-1 border-white hover:bg-white hover:text-slate-700 transition">
-            Next.js
           </span>
           <span className="rounded-sm border-4 flex items-center p-1 border-emerald-500 hover:bg-emerald-500 transition">
             Node
