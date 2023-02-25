@@ -28,7 +28,7 @@ export default function Works() {
               </h4>
             </div>
             <Image
-              src="./libertum.svg"
+              src="/works/libertum.svg"
               alt="Libertum Project Logo"
               width={90}
               height={80}
@@ -88,7 +88,7 @@ export default function Works() {
               </h4>
             </div>
             <Image
-              src="/henry.png"
+              src="/works/henry.png"
               alt="Libertum Project Logo"
               width={80}
               height={80}
