@@ -10,7 +10,7 @@ export default function About() {
       className="max-w-lg rounded-md md:border-2 border-green-300/30 text-slate-100
     p-8 md:px-8 md:py-12 text-justify relative z-10 hover:bg-black/5 transition flex flex-col gap-6"
     >
-      <h1 className="w-max text-center md:text-left text-3xl font-bold mb-4 relative md:absolute left-0 top-0 md:-top-12">
+      <h1 className="md:max-w-lg text-center md:text-left text-3xl font-bold mb-4 relative md:absolute left-0 top-0 md:-top-12">
         Lucas Magra, Full Stack Developer
       </h1>
       <header className="flex justify-center items-center gap-8 flex-col md:flex-row">

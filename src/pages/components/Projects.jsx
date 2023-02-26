@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <>
       <h2 className="text-6xl text-slate-50 font-extrabold mt-8">PROYECTOS</h2>
-      <div className="flex flex-col flex-wrap md:flex-row justify-center gap-8 md:gap-12">
+      <div className="flex flex-col flex-wrap md:flex-row justify-center gap-12 md:gap-16">
         <article
           className="max-w-lg rounded-md md:border-2 md:border-l-4 md:border-b-[5px] text-slate-50
   p-8 md:px-8 md:py-12 text-justify relative border-[#f88612] hover:bg-black/5 transition"

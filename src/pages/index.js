@@ -26,10 +26,10 @@ export default function Home() {
           />
           <RxDoubleArrowDown size={45} className="mt-12 animate-transform" />
         </section>
-        <section className="mt-16 mb-4 md:mt-36 flex flex-col items-center gap-4 md:gap-12 w-full">
+        <section className="mt-24 mb-4 md:mt-36 flex flex-col items-center gap-4 md:gap-12 w-full">
           <Works />
         </section>
-        <section className="mt-16 mb-4 md:mt-36 flex flex-col items-center gap-4 md:gap-12 w-full">
+        <section className="mt-24 mb-4 md:mt-36 flex flex-col items-center gap-4 md:gap-12 w-full">
           <Projects />
         </section>
         <h1 className="text-sm m-auto p-2 mt-12">
