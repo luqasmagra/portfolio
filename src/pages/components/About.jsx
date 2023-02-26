@@ -76,7 +76,7 @@ export default function About() {
       </header>
       <div className="font-semibold">
         <p>
-          Me considero responsable, detallista, con ganas de aprender y
+          Soy una persona responsable, detallista, de ágil aprendizaje y
           dispuesto a cualquier tipo de desafío.
         </p>
         <p>
@@ -84,8 +84,9 @@ export default function About() {
           diferentes entornos laborales.
         </p>
         <p>
-          Me interesa participar de proyectos orientados a resultados de calidad
-          que mejoren la experiencia de los usuarios y la escalabilidad.
+          Me interesa participar de proyectos innovadores y orientados a
+          resultados de calidad que mejoren y faciliten la experiencia de los
+          usuarios.
         </p>
       </div>
       <footer>
