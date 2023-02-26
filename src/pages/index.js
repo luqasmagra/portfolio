@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import { RxDoubleArrowDown } from "react-icons/rx";
 import About from "./components/About";
-import Works from "./components/Works";
+import Experiencie from "./components/Experience";
 import Projects from "./components/Projects";
 
 export default function Home() {
@@ -27,7 +27,7 @@ export default function Home() {
           <RxDoubleArrowDown size={45} className="mt-12 animate-transform" />
         </section>
         <section className="mt-24 mb-4 md:mt-36 flex flex-col items-center gap-4 md:gap-12 w-full">
-          <Works />
+          <Experiencie />
         </section>
         <section className="mt-24 mb-4 md:mt-36 flex flex-col items-center gap-4 md:gap-12 w-full">
           <Projects />
