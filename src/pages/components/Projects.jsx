@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { AiOutlineLink } from "react-icons/ai";
 
 export default function Projects() {
@@ -8,6 +8,71 @@ export default function Projects() {
     <>
       <h2 className="text-6xl text-slate-50 font-extrabold mt-8">PROYECTOS</h2>
       <div className="flex flex-col flex-wrap md:flex-row justify-center gap-12 md:gap-16">
+        <article
+          className="max-w-lg rounded-md md:border-2 md:border-l-4 md:border-b-[5px] text-slate-50
+  p-8 md:px-8 md:py-12 text-justify relative border-[#2321ac] hover:bg-black/5 transition"
+        >
+          <header className="flex justify-between items-start mb-4">
+            <div>
+              <a target="_black" rel="noreferrer" className="flex w-fit ">
+                <h2 className="cursor-pointer text-3xl font-bold bg-[#2321ac] text-left w-fit p-1 flex items-center hover:scale-110 transition">
+                  <AiOutlineLink size={30} /> TABLES MANAGER
+                </h2>
+              </a>
+              <h4 className="font-bold underline uppercase text-left w-fit my-2">
+                FEB 2023
+              </h4>
+            </div>
+            <div className="flex">
+              <a
+                href="https://github.com/luqasmagra/tables-manager"
+                target="_blank"
+                className="hover:scale-110 transition"
+              >
+                <FaGithub size={45} />
+              </a>
+            </div>
+          </header>
+          <Image
+            src="/projects/tables.png"
+            width={1600}
+            height={600}
+            alt="Table Page of Tables Manager"
+            className="max-h-56 mx-auto object-cover w-full"
+          />
+          <p className="text-left my-6 font-semibold text-slate-50">
+            De una interfaz super intuitiva y un óptimo funcionamiento surge
+            este proyecto. Aplicación para la administración en vivo de mesas y
+            sus productos, desde varios dispositivos a la vez, de un pequeño
+            restobar.
+          </p>
+          <div className="flex flex-wrap gap-2 mt-4 font-semibold">
+            <span className="rounded-sm border-4 flex items-cente p-1 border-orange-400 hover:bg-orange-400 transition">
+              HTML
+            </span>
+            <span className="rounded-sm border-4 flex items-center p-1 border-sky-500 hover:bg-sky-500 transition">
+              CSS
+            </span>
+            <span className="rounded-sm border-4 flex items-center p-1 border-red-500 hover:bg-red-500 transition">
+              Ant Design
+            </span>
+            <span className="rounded-sm border-4 flex items-center p-1 border-yellow-500 hover:bg-yellow-500 transition">
+              JavaScript
+            </span>
+            <span className="rounded-sm border-4 flex items-center p-1 border-sky-600 hover:bg-sky-600 transition">
+              React
+            </span>
+            <span className="rounded-sm border-4 flex items-center p-1 border-pink-600 hover:bg-pink-600 transition">
+              GraphQL
+            </span>
+            <span className="rounded-sm border-4 flex items-center p-1 border-slate-500 hover:bg-slate-500 transition">
+              Express
+            </span>
+            <span className="rounded-sm border-4 flex items-center p-1 border-green-700 hover:bg-green-700 transition">
+              MondoDB
+            </span>
+          </div>
+        </article>
         <article
           className="max-w-lg rounded-md md:border-2 md:border-l-4 md:border-b-[5px] text-slate-50
   p-8 md:px-8 md:py-12 text-justify relative border-[#f88612] hover:bg-black/5 transition"
@@ -38,7 +103,7 @@ export default function Projects() {
             className="max-h-56 mx-auto object-cover w-full"
           />
           <p className="text-left my-6 font-semibold text-slate-50">
-            Libertum Protocol es una plataforma de prestamos descentralizados.
+            Libertum Protocol es una plataforma de préstamos descentralizados.
             Permite el acceso a servicios financieros en una plataforma amigable
             y accesible facilitando a los usuarios non-crypto el uso de los
             servicios DeFi.
@@ -101,7 +166,7 @@ export default function Projects() {
             src="/projects/drivein.png"
             width={1600}
             height={600}
-            alt="Landing page of Libertum Plataform"
+            alt="Landing page of DriveIn"
             className="max-h-56 mx-auto object-cover w-full"
           />
           <p className="text-left my-6 font-semibold text-slate-50">
@@ -176,7 +241,7 @@ export default function Projects() {
             src="/projects/dogs.png"
             width={1600}
             height={600}
-            alt="Landing page of Libertum Plataform"
+            alt="Landing page of Henry Dogs"
             className="max-h-56 mx-auto object-cover w-full"
           />
           <p className="text-left my-6 font-semibold text-slate-50">
