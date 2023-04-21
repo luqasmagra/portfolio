@@ -31,9 +31,17 @@ export default function Works() {
           <p className="text-left my-6 mb-8 font-semibold text-slate-50">
             Desarrollo de un ERP internacional que respalde el desarrollo
             comercial y el crecimiento escalable de nuestros socios y sus
-            clientes. Seguir mejorando la plataforma Etendo para permitir a
-            cualquier empresa disponer de un ERP web adaptable, flexible y
-            componible.
+            clientes. Seguir mejorando la plataforma{" "}
+            <a
+              href="https://etendo.software/"
+              target="_black"
+              rel="noreferrer"
+              className="text-blue-500 underline"
+            >
+              Etendo
+            </a>{" "}
+            para permitir a cualquier empresa disponer de un ERP web adaptable,
+            flexible y componible.
           </p>
           <div className="flex flex-wrap gap-2 mt-4 font-semibold">
             <span className="rounded-sm border-4 flex items-center p-1 border-slate-500 hover:bg-slate-500 transition">
@@ -42,15 +50,7 @@ export default function Works() {
             <span className="rounded-sm border-4 flex items-center p-1 border-yellow-500 hover:bg-yellow-500 transition">
               JavaScript
             </span>
-            {/* <span className="rounded-sm border-4 flex items-center p-1 border-sky-500 hover:bg-sky-500 transition">
-              CSS
-            </span>
-            <span className="rounded-sm border-4 flex items-center p-1 border-sky-600 hover:bg-sky-600 transition">
-              React
-            </span>
-            <span className="rounded-sm border-4 flex items-center p-1 border-violet-600 hover:bg-violet-600 transition">
-              Redux
-            </span> */}
+
             <span className="rounded-sm border-4 flex items-center p-1 border-blue-700 hover:bg-blue-700 transition">
               Aprendizaje ágil
             </span>
