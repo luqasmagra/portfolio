@@ -1,5 +1,5 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
 import { AiOutlineLink } from "react-icons/ai";
 
 export default function Works() {
@@ -7,6 +7,58 @@ export default function Works() {
     <>
       <h2 className="text-6xl text-slate-50 font-extrabold">EXPERIENCIA</h2>
       <div className="flex flex-col flex-wrap md:flex-row justify-center gap-8 md:gap-12">
+        <article
+          className="max-w-lg rounded-md md:border-2 md:border-r-4 md:border-b-[5px] text-slate-50 h-fit
+  p-8 md:px-8 md:pb-12 text-justify relative border-[#fe4531] hover:bg-black/5 transition"
+        >
+          <div className="flex items-center justify-between ">
+            <div className="pt-6">
+              <a
+                href="https://futitservices.com/"
+                target="_black"
+                rel="noreferrer"
+                className="flex w-fit "
+              >
+                <h2 className="text-3xl font-bold bg-[#fe4531] text-left w-fit p-1 flex items-center hover:scale-110 transition">
+                  <AiOutlineLink size={30} /> FUTIT Services
+                </h2>
+              </a>
+              <h4 className="font-bold underline uppercase text-left w-fit my-2">
+                MAR 2023 - Now
+              </h4>
+            </div>
+          </div>
+          <p className="text-left my-6 mb-8 font-semibold text-slate-50">
+            Desarrollo de un ERP internacional que respalde el desarrollo
+            comercial y el crecimiento escalable de nuestros socios y sus
+            clientes. Seguir mejorando la plataforma Etendo para permitir a
+            cualquier empresa disponer de un ERP web adaptable, flexible y
+            componible.
+          </p>
+          <div className="flex flex-wrap gap-2 mt-4 font-semibold">
+            <span className="rounded-sm border-4 flex items-center p-1 border-slate-500 hover:bg-slate-500 transition">
+              Java
+            </span>
+            <span className="rounded-sm border-4 flex items-center p-1 border-yellow-500 hover:bg-yellow-500 transition">
+              JavaScript
+            </span>
+            {/* <span className="rounded-sm border-4 flex items-center p-1 border-sky-500 hover:bg-sky-500 transition">
+              CSS
+            </span>
+            <span className="rounded-sm border-4 flex items-center p-1 border-sky-600 hover:bg-sky-600 transition">
+              React
+            </span>
+            <span className="rounded-sm border-4 flex items-center p-1 border-violet-600 hover:bg-violet-600 transition">
+              Redux
+            </span> */}
+            <span className="rounded-sm border-4 flex items-center p-1 border-blue-700 hover:bg-blue-700 transition">
+              Aprendizaje ágil
+            </span>
+            <span className="rounded-sm border-4 flex items-center p-1 border-amber-500 hover:bg-amber-500 transition">
+              Desarrollo ágil
+            </span>
+          </div>
+        </article>
         <article
           className="max-w-lg rounded-md md:border-2 md:border-r-4 md:border-b-[5px] text-slate-50 h-fit
   p-8 md:px-8 md:pb-12 text-justify relative border-[#f88612] hover:bg-black/5 transition"
@@ -58,7 +110,7 @@ export default function Works() {
             <span className="rounded-sm border-4 flex items-center p-1 border-teal-600 hover:bg-teal-600 transition">
               Web3
             </span>
-            <span className="rounded-sm border-4 flex items-center p-1 border-amber-400 hover:bg-amber-400 transition">
+            <span className="rounded-sm border-4 flex items-center p-1 border-amber-500 hover:bg-amber-500 transition">
               Desarrollo ágil
             </span>
             <span className="rounded-sm border-4 flex items-center p-1 border-fuchsia-700 hover:bg-fuchsia-700 transition">
@@ -122,7 +174,7 @@ export default function Works() {
             <span className="rounded-sm border-4 flex items-center p-1 border-orange-600 hover:bg-orange-600 transition">
               SQL
             </span>
-            <span className="rounded-sm border-4 flex items-center p-1 border-amber-400 hover:bg-amber-400 transition">
+            <span className="rounded-sm border-4 flex items-center p-1 border-amber-500 hover:bg-amber-500 transition">
               Desarrollo ágil
             </span>
             <span className="rounded-sm border-4 flex items-center p-1 border-fuchsia-700 hover:bg-fuchsia-700 transition">

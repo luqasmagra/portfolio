@@ -1,14 +1,16 @@
-import Image from "next/image";
 import React from "react";
-import { FaGithub } from "react-icons/fa";
-import { AiOutlineLink } from "react-icons/ai";
+// import Image from "next/image";
+// import { FaGithub } from "react-icons/fa";
+// import { AiOutlineLink } from "react-icons/ai";
 
 export default function Projects() {
   return (
     <>
+      {/*
       <h2 className="text-6xl text-slate-50 font-extrabold mt-8">PROYECTOS</h2>
+      <h3 className="font-extrabold">en los que he trabajado</h3>
       <div className="flex flex-col flex-wrap md:flex-row justify-center gap-12 md:gap-16">
-        <article
+         <article
           className="max-w-lg rounded-md md:border-2 md:border-l-4 md:border-b-[5px] text-slate-50
   p-8 md:px-8 md:py-12 text-justify relative border-[#2321ac] hover:bg-black/5 transition"
         >
@@ -72,7 +74,7 @@ export default function Projects() {
               MondoDB
             </span>
           </div>
-        </article>
+        </article> 
         <article
           className="max-w-lg rounded-md md:border-2 md:border-l-4 md:border-b-[5px] text-slate-50
   p-8 md:px-8 md:py-12 text-justify relative border-[#f88612] hover:bg-black/5 transition"
@@ -274,6 +276,7 @@ export default function Projects() {
           </div>
         </article>
       </div>
+    */}
     </>
   );
 }

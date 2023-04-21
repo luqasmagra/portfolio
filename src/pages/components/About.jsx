@@ -1,5 +1,5 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
 import { HiOutlineMail } from "react-icons/hi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -22,13 +22,16 @@ export default function About() {
           className="rounded-full"
         />
         <div className="flex flex-col gap-4 font-medium self-center md:self-auto">
+          <span className="rounded-sm border-2 border-slate-500 flex max-w-max self-center justify-center bg-slate-500">
+            Full Stack Developer
+          </span>
           <a
-            className="p-1 bg-green-600 w-fit rounded-sm font-bold self-center animate-scale"
-            href="https://wa.me/543584380680"
+            className="p-1 bg-[#FE4531] w-fit rounded-sm font-bold self-center hover:scale-110 transition"
+            href="https://futitservices.com/"
             target="_blank"
             rel="noreferrer"
           >
-            <span>Desempleado 😉</span>
+            <span>FUTIT Services 💼</span>
           </a>
           <span className="p-1 gap-1 rounded-sm border-2 border-slate-500 w-fit flex items-center self-center ">
             Argentina
@@ -97,6 +100,9 @@ export default function About() {
           </span>
           <span className="rounded-sm border-4 flex items-center p-1 border-sky-500 hover:bg-sky-500 transition">
             CSS
+          </span>
+          <span className="rounded-sm border-4 flex items-center p-1 border-slate-500 hover:bg-slate-500 transition">
+            Java
           </span>
           <span className="rounded-sm border-4 flex items-center p-1 border-yellow-500 hover:bg-yellow-500 transition">
             JavaScript
