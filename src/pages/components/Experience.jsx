@@ -29,18 +29,18 @@ export default function Works() {
             </div>
           </div>
           <p className="text-left my-6 mb-8 font-semibold text-slate-50">
-            Desarrollo de un ERP internacional que respalde el desarrollo
-            comercial y el crecimiento escalable de nuestros socios y sus
-            clientes. Seguir mejorando la plataforma{" "}
+            Desarrollos sobre un ERP internacional, que respalde el crecimiento
+            comercial y escalable de nuestros socios y sus clientes. Seguir
+            mejorando la plataforma{" "}
             <a
               href="https://etendo.software/"
               target="_black"
               rel="noreferrer"
               className="text-blue-500 underline"
             >
-              Etendo
+              Etendo ©
             </a>{" "}
-            para permitir a cualquier empresa disponer de un ERP web adaptable,
+            para permitir a cualquier empresa disponer de un ERP adaptable,
             flexible y componible.
           </p>
           <div className="flex flex-wrap gap-2 mt-4 font-semibold">
