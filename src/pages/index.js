@@ -3,7 +3,6 @@ import Image from "next/image";
 import { RxDoubleArrowDown } from "react-icons/rx";
 import About from "./components/About";
 import Experiencie from "./components/Experience";
-import Projects from "./components/Projects";
 
 export default function Home() {
   return (
@@ -15,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex flex-col">
-        <section className="relative w-full h-full flex flex-col items-center justify-center mt-32">
+        <section className="relative w-full h-full flex flex-col items-center justify-center md:mt-32">
           <About />
           <Image
             width={1500}
@@ -26,12 +25,10 @@ export default function Home() {
           />
           <RxDoubleArrowDown size={45} className="mt-12 animate-transform" />
         </section>
-        <section className="mt-24 mb-4 md:mt-36 flex flex-col items-center gap-4 md:gap-12 w-full">
+        <section className="mt-24 mb-4 md:mt-28 flex flex-col items-center gap-4 md:gap-12 w-full">
           <Experiencie />
         </section>
-        <section className="mt-24 mb-4 md:mt-36 flex flex-col items-center gap-4 md:gap-12 w-full">
-          <Projects />
-        </section>
+
         <h1 className="text-sm m-auto p-2 mt-12">
           template by{" "}
           <a

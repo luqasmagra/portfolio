@@ -19,38 +19,46 @@ export default function Works() {
                 rel="noreferrer"
                 className="flex w-fit "
               >
-                <h2 className="text-3xl font-bold bg-[#fe4531] text-left w-fit p-1 flex items-center hover:scale-110 transition">
+                <h2 className="text-3xl font-bold bg-[#fe4531] text-left w-fit p-1 flex items-center hover:bg-[#fd4d3a] transition">
                   <AiOutlineLink size={30} /> FUTIT Services
                 </h2>
               </a>
-              <h4 className="font-bold underline uppercase text-left w-fit my-2">
+              <h4 className="font-bold underline uppercase text-left w-fit my-2 ">
                 MAR 2023 - Now
               </h4>
             </div>
           </div>
           <p className="text-left my-6 mb-8 font-semibold text-slate-50">
-            Desarrollos sobre un ERP internacional, que respalde el crecimiento
-            comercial y escalable de nuestros socios y sus clientes. Seguir
-            mejorando la plataforma{" "}
+            Desarrollo sobre un ERP internacional, que respalde el crecimiento
+            comercial y escalable de socios y sus clientes. Seguir mejorando la
+            plataforma{" "}
             <a
               href="https://etendo.software/"
               target="_black"
               rel="noreferrer"
               className="text-blue-500 underline"
             >
-              Etendo ©
+              Etendo ©,
             </a>{" "}
             para permitir a cualquier empresa disponer de un ERP adaptable,
             flexible y componible.
           </p>
           <div className="flex flex-wrap gap-2 mt-4 font-semibold">
-            <span className="rounded-sm border-4 flex items-center p-1 border-slate-500 hover:bg-slate-500 transition">
-              Java
-            </span>
             <span className="rounded-sm border-4 flex items-center p-1 border-yellow-500 hover:bg-yellow-500 transition">
               JavaScript
             </span>
-
+            <span className="rounded-sm border-4 flex items-center p-1 border-[#713f12] hover:bg-[#713f12] transition">
+              XML
+            </span>
+            <span className="rounded-sm border-4 flex items-center p-1 border-slate-500 hover:bg-slate-500 transition">
+              Java
+            </span>
+            <span className="rounded-sm border-4 flex items-center p-1 border-orange-600 hover:bg-orange-600 transition">
+              SQL
+            </span>
+            <span className="rounded-sm border-4 flex items-center p-1 border-sky-900 hover:bg-sky-900 transition">
+              PostgreSQL
+            </span>
             <span className="rounded-sm border-4 flex items-center p-1 border-blue-700 hover:bg-blue-700 transition">
               Aprendizaje ágil
             </span>
@@ -71,7 +79,7 @@ export default function Works() {
                 rel="noreferrer"
                 className="flex w-fit "
               >
-                <h2 className="text-3xl font-bold bg-[#f88612] text-left w-fit p-1 flex items-center hover:scale-110 transition">
+                <h2 className="text-3xl font-bold bg-[#f88612] text-left w-fit p-1 flex items-center hover:bg-[#ff9429] transition">
                   <AiOutlineLink size={30} /> LIBERTUM
                 </h2>
               </a>
@@ -130,7 +138,7 @@ export default function Works() {
                 rel="noreferrer"
                 className="flex w-fit "
               >
-                <h2 className="text-3xl font-bold bg-[#FFFF01] text-left text-slate-900 w-fit p-1 flex items-center hover:scale-110 transition">
+                <h2 className="text-3xl font-bold bg-[#FFFF01] text-left text-slate-900 w-fit p-1 flex items-center hover:bg-[#ecec3a] transition">
                   <AiOutlineLink size={30} />
                   HENRY
                 </h2>
