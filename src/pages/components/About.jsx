@@ -79,8 +79,8 @@ export default function About() {
       </header>
       <div className="font-semibold">
         <p>
-          Soy una persona responsable, detallista, de ágil aprendizaje y
-          dispuesto a cualquier tipo de desafío.
+          Me considero una persona responsable, detallista, de ágil aprendizaje
+          y dispuesto a cualquier tipo de desafío.
         </p>
         <p>
           Tengo habilidades de adaptación con compañeros y clientes en
