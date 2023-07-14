@@ -22,7 +22,7 @@ export default function About() {
           className="rounded-full"
         />
         <div className="flex flex-col gap-4 font-medium self-center md:self-auto">
-          <span className="rounded-sm border-2 border-slate-500 flex max-w-max self-center justify-center bg-slate-500">
+          <span className="rounded-sm border-2 border-slate-400 flex max-w-max self-center justify-center p-1 bg-[#038a56bb]">
             Software Developer
           </span>
           <a
