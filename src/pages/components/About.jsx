@@ -23,7 +23,7 @@ export default function About() {
         />
         <div className="flex flex-col gap-4 font-medium self-center md:self-auto">
           <span className="rounded-sm border-2 border-slate-500 flex max-w-max self-center justify-center bg-slate-500">
-            Full Stack Developer
+            Software Developer
           </span>
           <a
             className="p-1 bg-[#FE4531] w-fit rounded-sm font-bold self-center hover:bg-[#fd4d3a] transition"
