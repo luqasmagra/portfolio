@@ -10,7 +10,7 @@ export default function About() {
       className="max-w-lg rounded-md md:border-2 border-green-300/30 text-slate-100
     p-8 md:px-8 md:py-12 text-justify relative z-10 hover:bg-black/5 transition flex flex-col gap-12"
     >
-      <h1 className="md:max-w-lg text-center text-3xl font-bold mb-4 relative md:absolute md:left-1/3 top-0 md:-top-12">
+      <h1 className="md:max-w-lg text-center text-4xl font-bold mb-4 relative md:absolute top-0 md:-top-12">
         Lucas Magra
       </h1>
       <header className="flex justify-center items-center gap-8 flex-col md:flex-row">
@@ -33,7 +33,7 @@ export default function About() {
           >
             <span>FUTIT Services 💼</span>
           </a>
-          <span className="p-1 gap-1 rounded-sm border-2 border-slate-500 w-fit flex items-center self-center ">
+          <span className="p-1 gap-1 rounded-sm border-2 border-slate-500 w-fit flex items-center self-center">
             Argentina
             <Image
               src="/argentina.svg"
@@ -42,7 +42,7 @@ export default function About() {
               alt="Bandera Argentina"
             />
           </span>
-          <div className="grid grid-cols-2 gap-4 m-auto">
+          <div className="flex flex-wrap justify-center gap-4 m-auto">
             <a
               className="flex items-end justify-center gap-x-2 hover:scale-105 transition"
               href="https://github.com/luqasmagra"
@@ -50,14 +50,6 @@ export default function About() {
               rel="noreferrer"
             >
               <FaGithub size={30} /> GitHub
-            </a>
-            <a
-              className="flex items-end justify-center gap-x-2 hover:scale-105 transition"
-              href="https://drive.google.com/file/d/1INnkA-v8_ZmvDuWefnIJqAFbKLh_lfwN/view?usp=share_link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <BsFillPersonLinesFill size={30} /> CV
             </a>
             <a
               className="flex items-end justify-center gap-x-2 hover:scale-105 transition"
