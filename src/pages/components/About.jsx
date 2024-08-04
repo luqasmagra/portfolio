@@ -1,8 +1,8 @@
-import React from "react";
-import Image from "next/image";
-import { HiOutlineMail } from "react-icons/hi";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import React from 'react';
+import Image from 'next/image';
+import { HiOutlineMail } from 'react-icons/hi';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
 
 export default function About() {
   return (
@@ -14,13 +14,6 @@ export default function About() {
         Lucas Magra
       </h1>
       <header className="flex justify-center items-center gap-8 flex-col md:flex-row">
-        <Image
-          src="/face.png"
-          alt="Lucas Magra fotografia"
-          width={190}
-          height={190}
-          className="rounded-full"
-        />
         <div className="flex flex-col gap-4 font-medium self-center md:self-auto">
           <span className="rounded-sm border-2 border-slate-400 flex max-w-max self-center justify-center p-1 bg-[#038a56bb]">
             Software Developer
