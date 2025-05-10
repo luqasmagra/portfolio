@@ -8,8 +8,8 @@ export default function Works() {
       <h2 className="text-6xl text-slate-50 font-extrabold">EXPERIENCIA</h2>
       <div className="flex flex-col flex-wrap md:flex-row justify-center gap-8 md:gap-12">
         <article
-          className="max-w-lg rounded-md md:border-2 md:border-r-4 md:border-b-[5px] text-slate-50 h-fit
-  p-8 md:px-8 md:pb-12 text-justify relative border-[#fe4531] hover:bg-black/5 transition"
+          className="max-w-lg rounded-md md:border-2 md:border-r-4 md:border-b-[5px] text-slate-50 h-fit 
+          p-8 md:px-8 md:pb-12 text-justify relative border-[#fe4531] hover:bg-black/5 transition"
         >
           <div className="flex items-center justify-between ">
             <div className="pt-6">
@@ -27,28 +27,32 @@ export default function Works() {
                 MAR 2023 - Now
               </h4>
             </div>
+            <Image
+              src="/works/futit.png"
+              alt="Libertum Project Logo"
+              width={140}
+              height={60}
+            />
           </div>
           <p className="text-left my-6 mb-8 font-semibold text-slate-50">
-            Desarrollo sobre un ERP internacional, que respalda el crecimiento
-            comercial y escalable de socios y sus clientes. Continuar mejorando la
-            plataforma{" "}
-            <a
+            Desarrollo sobre 
+            {" "}<a
               href="https://etendo.software/"
               target="_black"
               rel="noreferrer"
               className="text-blue-500 underline"
             >
               Etendo ©,
-            </a>{" "}
-            para permitir a cualquier empresa disponer de un ERP adaptable,
-            flexible y componible.
+            </a>{" "} 
+            ERP internacional diseñado para acompañar el crecimiento comercial 
+            y escalable de socios y sus clientes. Formo parte del equipo de servicios, 
+            donde participo en tareas de soporte en vivo y en el desarrollo de nuevas funcionalidades, 
+            tanto en backend como en frontend. Bajo metodologías ágiles y en coordinación 
+            con el equipo de producto, trabajamos para brindar las mejores soluciones a los clientes.
           </p>
           <div className="flex flex-wrap gap-2 mt-4 font-semibold">
             <span className="rounded-sm border-4 flex items-center p-1 border-yellow-500 hover:bg-yellow-500 transition">
               JavaScript
-            </span>
-            <span className="rounded-sm border-4 flex items-center p-1 border-[#713f12] hover:bg-[#713f12] transition">
-              XML
             </span>
             <span className="rounded-sm border-4 flex items-center p-1 border-slate-500 hover:bg-slate-500 transition">
               Java
@@ -58,12 +62,6 @@ export default function Works() {
             </span>
             <span className="rounded-sm border-4 flex items-center p-1 border-sky-900 hover:bg-sky-900 transition">
               PostgreSQL
-            </span>
-            <span className="rounded-sm border-4 flex items-center p-1 border-blue-700 hover:bg-blue-700 transition">
-              Aprendizaje ágil
-            </span>
-            <span className="rounded-sm border-4 flex items-center p-1 border-amber-500 hover:bg-amber-500 transition">
-              Desarrollo ágil
             </span>
           </div>
         </article>
@@ -95,17 +93,12 @@ export default function Works() {
             />
           </div>
           <p className="text-left my-6 mb-8 font-semibold text-slate-50">
-            Crear oportunidades, proteger la propiedad privada y mejorar las
-            condiciones de vida de cada individuo. Libertum es una DeFi, un
-            medio de pago, un medio de copia de seguridad y una criptomoneda.
+            Desarrollo de solución frontend para Libertum Project. 
+            Participé junto al equipo en la implementación de la landing page y en 
+            las primeras integraciones con wallets Web3 como MetaMask, 
+            aplicando buenas prácticas de desarrollo y metodologías ágiles.
           </p>
           <div className="flex flex-wrap gap-2 mt-4 font-semibold">
-            <span className="rounded-sm border-4 flex items-cente p-1 border-orange-400 hover:bg-orange-400 transition">
-              HTML
-            </span>
-            <span className="rounded-sm border-4 flex items-center p-1 border-sky-500 hover:bg-sky-500 transition">
-              CSS
-            </span>
             <span className="rounded-sm border-4 flex items-center p-1 border-yellow-500 hover:bg-yellow-500 transition">
               JavaScript
             </span>
@@ -172,9 +165,6 @@ export default function Works() {
             </span>
             <span className="rounded-sm border-4 flex items-center p-1 border-sky-600 hover:bg-sky-600 transition">
               React
-            </span>
-            <span className="rounded-sm border-4 flex items-center p-1 border-violet-600 hover:bg-violet-600 transition">
-              Redux
             </span>
             <span className="rounded-sm border-4 flex items-center p-1 border-emerald-500 hover:bg-emerald-500 transition">
               Node

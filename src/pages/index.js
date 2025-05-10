@@ -9,11 +9,11 @@ export default function Home() {
     <>
       <Head>
         <title>luqasmagra</title>
-        <meta name="description" content="Lucas Magra, Full Stack Developer" />
+        <meta name="description" content="Lucas Magra, Software Developer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex flex-col">
+      <main className="flex flex-col items-center">
         <section className="relative w-full h-full flex flex-col items-center justify-center md:mt-32">
           <About />
           <Image
@@ -23,8 +23,8 @@ export default function Home() {
             className="absolute m-auto pt-36"
             alt="squared vector"
           />
-          <RxDoubleArrowDown size={45} className="mt-12 animate-transform" />
         </section>
+          <RxDoubleArrowDown size={45} className="mt-12 animate-transform" />
         <section className="mt-24 mb-4 md:mt-28 flex flex-col items-center gap-4 md:gap-12 w-full">
           <Experiencie />
         </section>
@@ -33,7 +33,7 @@ export default function Home() {
           template by{" "}
           <a
             className="text-sky-500"
-            href="https://github.com/tmchein"
+            href=""
             target="_blank"
           >
             tmchein
