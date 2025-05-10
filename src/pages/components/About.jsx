@@ -10,12 +10,12 @@ export default function About() {
       className="max-w-lg rounded-md md:border-2 border-green-300/30 text-slate-100
     p-8 md:px-8 md:py-12 text-justify relative z-10 hover:bg-black/5 transition flex flex-col gap-12"
     >
-      <h1 className="md:max-w-lg text-center text-4xl font-bold mb-4 relative md:absolute top-0 md:-top-12">
+      <h1 className="md:max-w-lg text-center text-5xl font-bold mb-4 relative md:absolute top-0 md:-top-12">
         Lucas Magra
       </h1>
       <header className="flex justify-center items-center gap-8 flex-col md:flex-row">
-        <div className="flex flex-col gap-4 font-medium self-center md:self-auto">
-          <span className="rounded-sm border-2 border-slate-400 flex max-w-max self-center justify-center p-1 bg-[#038a56bb]">
+        <div className="flex flex-col gap-5 font-medium self-center md:self-auto">
+          <span className="rounded-sm border-2 border-slate-400 flex max-w-max self-center justify-center p-1 bg-[#038a56bb] hover:cursor-pointer">
             Software Developer
           </span>
           <a

@@ -29,8 +29,8 @@ export default function Works() {
             </div>
           </div>
           <p className="text-left my-6 mb-8 font-semibold text-slate-50">
-            Desarrollo sobre un ERP internacional, que respalde el crecimiento
-            comercial y escalable de socios y sus clientes. Seguir mejorando la
+            Desarrollo sobre un ERP internacional, que respalda el crecimiento
+            comercial y escalable de socios y sus clientes. Continuar mejorando la
             plataforma{" "}
             <a
               href="https://etendo.software/"
