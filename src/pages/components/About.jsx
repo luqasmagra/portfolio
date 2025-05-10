@@ -42,7 +42,7 @@ export default function About() {
               target="_blank"
               rel="noreferrer"
             >
-              <FaGithub size={30} /> GitHub
+              <FaGithub size={30} />
             </a>
             <a
               className="flex items-end justify-center gap-x-2 hover:scale-105 transition"
@@ -50,14 +50,14 @@ export default function About() {
               target="_blank"
               rel="noreferrer"
             >
-              <FaLinkedin size={30} /> LinkedIn
+              <FaLinkedin size={30} />
             </a>
             <a
               className="flex items-end justify-center gap-x-2 hover:scale-105 transition"
               href="mailto:luqasmagra@gmail.com"
               rel="noreferrer"
             >
-              <HiOutlineMail size={30} /> Email
+              <HiOutlineMail size={30} />
             </a>
           </div>
         </div>
