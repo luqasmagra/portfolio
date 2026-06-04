@@ -1,1 +1,1 @@
-[lu](https://luqasmagra.vercel.app/)
+##[luqasmagra](https://luqasmagra.vercel.app/)
